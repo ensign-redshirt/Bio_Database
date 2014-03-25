@@ -1,5 +1,3 @@
--- Table structure for table `FillBlank`
-
 CREATE TABLE IF NOT EXISTS `FillBlank` (
   `NumID` int(11) NOT NULL DEFAULT '0',
   `question` blob NOT NULL,
@@ -17,11 +15,7 @@ CREATE TABLE IF NOT EXISTS `FillBlank` (
   `bicerial` decimal(3,2) DEFAULT NULL,
   `DI` decimal(3,2) DEFAULT NULL,
   `percCorrect` decimal(5,2) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
--- Table structure for table `LongShort`
-
+) 
 
 CREATE TABLE IF NOT EXISTS `LongShort` (
   `NumID` int(11) NOT NULL DEFAULT '0',
@@ -36,12 +30,7 @@ CREATE TABLE IF NOT EXISTS `LongShort` (
   `bicerial` decimal(3,2) DEFAULT NULL,
   `DI` decimal(3,2) DEFAULT NULL,
   `percCorrect` decimal(5,2) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-
--- Table structure for table `Multiple`
-
+) 
 
 CREATE TABLE IF NOT EXISTS `Multiple` (
   `NumID` int(11) NOT NULL AUTO_INCREMENT,
